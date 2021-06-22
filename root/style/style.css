@@ -1,0 +1,232 @@
+/* @mixin bg-image */
+#models {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/models.jpg");
+}
+
+#model3 {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/model3.jpg");
+}
+
+#modelx {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/modelx.jpg");
+}
+
+#modely {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/modely.jpg");
+}
+
+#roadster {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/roadster.jpg");
+}
+
+/* Media queries for extra small devices */
+/* Model S */
+@media only screen and (max-width: 768px) {
+  #models {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #models {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #models {
+    height: 75vh;
+  }
+}
+
+/* Model 3 */
+@media only screen and (max-width: 768px) {
+  #model3 {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #model3 {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #model3 {
+    height: 75vh;
+  }
+}
+
+/* Model X */
+@media only screen and (max-width: 768px) {
+  #modelx {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #modelx {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #modelx {
+    height: 75vh;
+  }
+}
+
+/* Model Y */
+@media only screen and (max-width: 768px) {
+  #modely {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #modely {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #modely {
+    height: 75vh;
+  }
+}
+
+/* Roadster */
+@media only screen and (max-width: 768px) {
+  #roadster {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #roadster {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #roadster {
+    height: 75vh;
+  }
+}
+
+/* @mixin translate */
+/* Button Positioning */
+@media only screen and (min-width: 0px) {
+  .pid {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .pid {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .pid {
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .pid {
+    -webkit-transform: translateY(250%);
+            transform: translateY(250%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pid {
+    -webkit-transform: translateY(400%);
+            transform: translateY(400%);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pid {
+    -webkit-transform: translateY(500%);
+            transform: translateY(500%);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pid {
+    -webkit-transform: translateY(650%);
+            transform: translateY(650%);
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .pid {
+    -webkit-transform: translateY(750%);
+            transform: translateY(750%);
+  }
+}
+
+.container {
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  text-align: center;
+}
+
+.container .center a {
+  color: #393c41;
+}
+
+.container .center a:hover {
+  font-weight: 500;
+}
+
+.container .pid {
+  /*border: 3px solid red;*/
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .pid button {
+  margin: 5px;
+  padding: 5px 40px;
+}
+
+body,
+.container {
+  position: relative;
+}
+
+#header-img {
+  width: auto;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+@import "background";
+@import "spacing";
+
+body,
+.container {
+	position: relative;
+}
+#header-img {
+	width: auto;
+	height: 40px;
+}
