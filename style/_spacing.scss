@@ -1,0 +1,39 @@
+/* @mixin translate */
+@mixin translate($width, $pexel) {
+	@media only screen and (min-width: $width) {
+		.pid {
+			transform: translateY($pexel);
+		}
+	}
+}
+/* Button Positioning */
+@include translate(0px, 100%);
+@include translate(360px, 150%);
+@include translate(425px, 200%);
+@include translate(576px, 250%);
+@include translate(768px, 400%);
+@include translate(992px, 500%);
+@include translate(1200px, 650%);
+@include translate(1400px, 750%);
+.container {
+	position: absolute;
+	top: 10vh;
+	width: 100%;
+	text-align: center;
+	.center {
+		a {
+			color: #393c41;
+		}
+		a:hover {
+			font-weight: 500;
+		}
+	}
+	.pid {
+		/*border: 3px solid red;*/
+		justify-content: center;
+		button {
+			margin: 5px;
+			padding: 5px 40px;
+		}
+	}
+}
